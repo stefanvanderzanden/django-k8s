@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-k8s"
+version = "0.1.0"
+description = ""
+authors = ["Stefan van der Zanden <stefan.vanderzanden@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.0.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
